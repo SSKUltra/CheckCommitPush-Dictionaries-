@@ -12,14 +12,14 @@
                 "children":
                 [
                     {
-                        "caption": "CheckCommitPush(Dictionaries)",
+                        "caption": "CheckCommitPushDictionaries",
                         "children":
                         [
                             
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPush(Dictionaries) (OSX).sublime-settings",
+                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPushDictionaries (OSX).sublime-settings",
                                     "platform": "OSX"
                                 },
                                 "caption": "Settings – Default"
@@ -27,7 +27,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPush(Dictionaries) (Linux).sublime-settings",
+                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPushDictionaries (Linux).sublime-settings",
                                     "platform": "Linux"
                                 },
                                 "caption": "Settings – Default"
@@ -35,14 +35,14 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPush(Dictionaries) (Windows).sublime-settings",
+                                    "file": "${packages}/CheckCommitPushDictionaries/CheckCommitPushDictionaries (Windows).sublime-settings",
                                     "platform": "Windows"
                                 },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/CheckCommitPush(Dictionaries).sublime-settings"},
+                                "args": {"file": "${packages}/User/CheckCommitPushDictionaries.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
