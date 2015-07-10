@@ -3,7 +3,7 @@ import os
 import sys
 
 current_working_directory = os.getcwd() 																#current working directory 
-sys.path.append("/home/vac/.config/sublime-text-3/Packages/User" + "/lib/python3.4/site-packages")		#Tells sublime python interpreter where modules are store
+sys.path.append(current_working_directory + "/lib/python3.4/site-packages")		#Tells sublime python interpreter where modules are store
 
 from git import *	
 
@@ -54,4 +54,4 @@ class myOpener(sublime_plugin.EventListener):
 		
 		if file_push_counter[temp_dir] == settings.get("X_SAVES_Push") :
 			file_push_counter[temp_dir] = 0
-			repo_push()																			#function call to repo_push
+			repo_push()																		#function call to repo_push
