@@ -12,14 +12,14 @@
                 "children":
                 [
                     {
-                        "caption": "Gitcheckrepo",
+                        "caption": "CheckCommitPush(Dictionaries)",
                         "children":
                         [
                             
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (OSX).sublime-settings",
+                                    "file": "${packages}/CheckCommitPush(Dictionaries)/CheckCommitPush(Dictionaries) (OSX).sublime-settings",
                                     "platform": "OSX"
                                 },
                                 "caption": "Settings – Default"
@@ -27,7 +27,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (Linux).sublime-settings",
+                                    "file": "${packages}/CheckCommitPush(Dictionaries)/CheckCommitPush(Dictionaries) (Linux).sublime-settings",
                                     "platform": "Linux"
                                 },
                                 "caption": "Settings – Default"
@@ -35,14 +35,14 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (Windows).sublime-settings",
+                                    "file": "${packages}/CheckCommitPush(Dictionaries)/CheckCommitPush(Dictionaries) (Windows).sublime-settings",
                                     "platform": "Windows"
                                 },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/ProperCheckRepo.sublime-settings"},
+                                "args": {"file": "${packages}/User/CheckCommitPush(Dictionaries).sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
