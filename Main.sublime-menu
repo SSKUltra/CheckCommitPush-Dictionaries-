@@ -1,0 +1,56 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Gitcheckrepo",
+                        "children":
+                        [
+                            
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (OSX).sublime-settings",
+                                    "platform": "OSX"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (Linux).sublime-settings",
+                                    "platform": "Linux"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/ProperCheckRepo/ProperCheckRepo (Windows).sublime-settings",
+                                    "platform": "Windows"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/ProperCheckRepo.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

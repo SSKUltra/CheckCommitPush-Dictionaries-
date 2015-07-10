@@ -10,6 +10,7 @@ from git import *
 #settings = sublime.load_settings("ProperCheckRepo.sublime-settings")
 
 class myOpener(sublime_plugin.EventListener):		
+	
 	global file_push_counter
 	file_push_counter = {}
 	
