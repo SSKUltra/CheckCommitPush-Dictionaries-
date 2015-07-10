@@ -2,8 +2,9 @@ import sublime, sublime_plugin
 import os
 import sys
 
-current_working_directory = os.getcwd() 												#current working directory 
-sys.path.append(current_working_directory + "/lib/python3.4/site-packages")				#Tells sublime python interpreter where modules are store
+if sublime.platform() == 'Linux' :
+	current_working_directory = os.getcwd() 												#current working directory 
+	sys.path.append(current_working_directory + "/lib/python3.4/site-packages")				#Tells sublime python interpreter where modules are store
 
 from git import *																		#import git into sublime plugin
 
