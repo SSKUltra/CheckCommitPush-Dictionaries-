@@ -7,7 +7,7 @@ sys.path.append("/home/vac/.config/sublime-text-3/Packages/User" + "/lib/python3
 
 from git import *	
 
-#settings = sublime.load_settings("ProperCheckRepo.sublime-settings")
+settings = sublime.load_settings("CheckCommitPushDictionaries.sublime-settings")
 
 class myOpener(sublime_plugin.EventListener):		
 	
@@ -35,7 +35,7 @@ class myOpener(sublime_plugin.EventListener):
 			sublime.message_dialog(str(repo.git.status()))
 			#sublime.message_dialog("You have saved the file")
 
-			sublime.message_dialog(str(repo.git.add( '--all' )))
+			sublime.message_dialog(str(repo.git.add( temp_dir )))
 			sublime.message_dialog(str(repo.git.commit( m='committed all' )))
 
 			#sublime.message_dialog("and now it has been committed")
@@ -52,6 +52,6 @@ class myOpener(sublime_plugin.EventListener):
 
 		repo_check(temp_dir)																#function call to repo_check
 		
-		if file_push_counter[temp_dir] == 3 :
+		if file_push_counter[temp_dir] == settings.get("X_SAVES_Push") :
 			file_push_counter[temp_dir] = 0
 			repo_push()																			#function call to repo_push
