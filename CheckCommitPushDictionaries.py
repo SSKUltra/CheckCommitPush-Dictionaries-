@@ -3,8 +3,8 @@ import os
 import sys
 
 if sublime.platform() == 'Linux' :
-	current_working_directory = os.getcwd() 												#current working directory 
-	sys.path.append(current_working_directory + "/lib/python3.4/site-packages")				#Tells sublime python interpreter where modules are store
+	current_working_directory = os.getcwd() 											#current working directory for linux platform
+	sys.path.append(current_working_directory + "/lib/python3.4/site-packages")			#Tells sublime python interpreter where modules are store
 
 from git import *																		#import git into sublime plugin
 
@@ -51,6 +51,7 @@ class myOpener(sublime_plugin.EventListener):
 				o.pull()																#pulls the repo from origin master
 				o.push()																#pushes the repo to origin master
 				sublime.message_dialog("Repository pushed")	
+
 
 		repo_check(file_dir)															#function call to repo_check
 		
